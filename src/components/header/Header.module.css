@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Festive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Fenix&family=Festive&display=swap');
+
+.header>.login>a {
+  color: white;
+  text-decoration: none;
+}
+
+.header {
+    background: #FC9A9A;
+    display: flex;
+    align-items: center;
+
+    justify-content: space-between;
+    padding: 10px 20px;
+
+    color: white;
+
+    filter: drop-shadow(0px 10px 4px rgba(255, 0, 0, 0.13));
+
+}
+
+.logo {
+    font-family: "Festive", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: xx-large;
+}
+
+.navigation {
+    display: flex;
+    gap: 50px;
+}
+
+.navigation>a {
+    text-decoration: none;
+    color: white;
+    font-size: xx-large;
+
+    font-family: "Caveat", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.login{
+    display: flex;
+    gap: 10px;
+    flex-wrap: nowrap;
+    align-items: center;
+
+    font-family: "Fenix", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: x-large;
+}
